@@ -27,3 +27,6 @@ public class Sparrow extends Bird {
 		 System.out.println("참새의 이름은 " + super.getName() + "입니다.");
 	    }
 }
+//겟네임으로 한 이유는 private String name가 부모의 필드명이고 부모는 스스로 본인의 객체를
+//생성할수 없기때문에 자식이 super.getName과  setName을 이용하여 값을 받고 그것을 부모자식의
+//같은 메소드를 이용하여 출력하기 위함이다.

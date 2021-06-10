@@ -34,3 +34,6 @@ public abstract class Bird {
 	
 	public abstract void showName();
 }
+
+//추상클래스는 필드를 생성하고 메소드를 생성할수 있지만
+//스스로의 객체는 만들수 없다. 

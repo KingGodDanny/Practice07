@@ -17,3 +17,5 @@ public class BirdApp {
     }
 
 }
+
+//setName을 이용해 부모의 필드에 값넣어주기 
