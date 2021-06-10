@@ -22,7 +22,7 @@ public class ShapeApp {
 		
 		((Ractangle)sr1).setWidth(12);  //다운캐스팅을 이용하여 가로와 세로의 값을 변경하고
 		((Ractangle)sr1).setHeight(10);
-		sr1.draw();						//시선을
+		sr1.draw();						//시선을 부모인 Shape로 향하지만 섞어쓰기 오버라이딩으로 인해 Rectangle의 draw를 그릴수 있게된다.
 		
 		//sr1의 가로크기 출력
 		
